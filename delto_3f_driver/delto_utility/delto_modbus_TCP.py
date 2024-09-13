@@ -57,7 +57,7 @@ class Communication:
                                          sys._getframe().f_code.co_name)            
             return
         
-        self.client.close()  
+        #self.client.close()  
 
     def get_position(self):
         
